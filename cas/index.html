@@ -172,8 +172,9 @@
 									dojoattachpoint="containerNode"
 									widgetid="ibmweb_dynnav_greeting_0">
 										<p dojoattachpoint="welcomeMessageNode" id="ibm-welcome-msg">
-											Welcome</p> <span dojoattachpoint="bNode"
-										style="display: inline;"> <span
+											Welcome</p>
+								<span dojoattachpoint="bNode" style="display: inline;">
+								<span
 											class="ibm-greeting-hasp">[</span> <span
 											dojoattachpoint="linksNode"><span class="ibm-sso-link"><a
 													href="#" tabindex="-1" dojoattrid="9"
@@ -218,13 +219,15 @@
 									id="ibm-search-form">
 									<p>
 										<label for="q"> <span class="ibm-access">Search</span>
-										</label> <input id="q" value="" maxlength="100" name="q" type="text">
-										<input name="v" type="hidden" value="17"> <input
-											type="hidden" name="en" value="utf"> <input
-											name="lang" type="hidden" value="en"> <input
-											name="cc" type="hidden" value="us"> <input
-											value="Submit" class="ibm-btn-search" id="ibm-search"
-											type="submit">
+										</label>
+										<div class="input-group">
+										    <div class="input-group-btn">
+												<input id="q" value="" maxlength="100" name="q" type="text">
+										    </div>
+										    <div class="input-group-addon">
+										        <i class="fa fa-fw fa-search">&nbsp;</i>
+										    </div>
+										</div>
 									</p>
 								</form>
 							</div>
@@ -1135,11 +1138,6 @@
 
 					<!-- LEADSPACE_BEGIN -->
 					<div id="ibm-access-cntr" role="main">
-						<div id="ibm-leadspace-head">
-							<div id="ibm-leadspace-body">
-								<h1>IBM Design</h1>
-							</div>
-						</div>
 						<div id="ibm-content-nav"
 							class="design-common-fixed-marker design-common-tabs-white"
 							style="position: absolute; top: auto;">
