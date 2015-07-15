@@ -1135,3 +1135,40 @@ img::-moz-selection {
 #cas-copyright {
 	margin-top: 30px;
 }
+
+.imageicon {
+	width: 64px;
+	height: 64px;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+#footer .info {
+	text-shadow:none; font-size:25px; font-weight:bold; color:#FFF; line-height:30px;
+}
+
+#footer .copyright {
+	text-shadow:none; font-size:15px; color:#FFF;
+	text-align:center;
+}
+
+#footer .btns a:hover {
+	text-decoration:none;
+}
+
+#footer .btns a img:hover {
+	background-color:rgba(255, 255, 255, .5);
+	transition:background .5s;
+}
+
+
+
+
+
+
+
+
+
+
