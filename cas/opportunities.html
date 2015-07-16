@@ -180,11 +180,9 @@
                                 <div class="ibm-col-1 text-center">
                                     <img id="opportunities-logo" src="img/logos/cas-logo-opportunities-white.png" class="img-responsive" />
                                 </div>
-                                <div id="scroll-btn" class="align-center">
-                                    <a href="#section-working-at-cas" class="btn btn-circle">
-                                    <i class="fa fa-angle-down animated"></i>
-                                    </a>
-                                </div>
+								<div id="scroll-btn" class="align-center" style="height:350px; position:absolute; top:250px;">
+									<a href="#section-working-at-cas" class="btn btn-square page-scroll"> <i class="fa fa-angle-down animated"></i> </a>
+								</div>
                             </div>
                         </header>
                         
@@ -235,37 +233,42 @@
                                             <tr>
                                                 <td>March 16th 2015</td>
                                                 <td>Extreme Blue Intern</td>
-                                                <td class="text-right"><button class="btn-default-dark btn-large" href="#jobModal1" class="portfolio-link" data-toggle="modal">More info</button></td>
+                                                <td class="text-right"><button class="btn-default-dark btn-large" href="#jobModal1" class="portfolio-link popup-activate" data-toggle="modal">More info</button></td>
                                             </tr>
                                             <tr>
                                                 <td>March 7th 2015</td>
                                                 <td>Business Intern</td>
-                                                <td class="text-right"><button class="btn-default-dark btn-large" href="#jobModal2" class="portfolio-link" data-toggle="modal">More info</button></td>
+                                                <td class="text-right"><button class="btn-default-dark btn-large" href="#jobModal2" class="portfolio-link popup-activate" data-toggle="modal">More info</button></td>
                                             </tr>
                                             <tr>
                                                 <td>Feb 22nd 2015</td>
                                                 <td>Marketing Intern</td>
-                                                <td class="text-right"><button class="btn-default-dark btn-large" href="#jobModal3" class="portfolio-link" data-toggle="modal">More info</button></td>
+                                                <td class="text-right"><button class="btn-default-dark btn-large" href="#jobModal3" class="portfolio-link popup-activate" data-toggle="modal">More info</button></td>
                                             </tr>
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                         </div>
-                        <div id="drop-us-a-line" style="margin:0 auto; width:100%;">
+
+						<!-- Working at CAS Section -->
+                        <div class="ibm-band padding-section black-text" id="section-working-at-cas">
                             <div class="ibm-columns">
-                                <div class="ibm-col-6-6 text-center" style="margin:0 auto; width:100%;">
-                                    <h2>Are you interested in</h2>
-                                    <h2>knowing more about CAS?</h2>
-                                    <img src="img/dropusaline.gif" class="img-responsive img-centered" />
+                                <div class="ibm-col-1 text-center">
+                                    <p>
+										<h2>Are you interested in</h2>
+										<h2>knowing more about CAS?</h2>
+										<img src="img/dropusaline.gif" class="img-responsive img-centered" />
+                                    </p>
                                 </div>
                             </div>
                         </div>
+						
                     </div>
                     <!-- Content -->
                     <!-- Project Modals / CONTENT -->
                     <!-- Job 1 -->
-                    <div class="portfolio-modal modal fade" id="jobModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="portfolio-modal modal fade hide" id="jobModal1" tabindex="-1" role="dialog" aria-hidden="true">
                         <div class="modal-content">
                             <div class="close-modal" data-dismiss="modal">
                                 <div class="lr">
@@ -302,7 +305,7 @@
                         </div>
                     </div>
                     <!-- Job 2 -->
-                    <div class="portfolio-modal modal fade" id="jobModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="portfolio-modal modal fade hide" id="jobModal2" tabindex="-1" role="dialog" aria-hidden="true">
                         <div class="modal-content">
                             <div class="close-modal" data-dismiss="modal">
                                 <div class="lr">
@@ -339,7 +342,7 @@
                         </div>
                     </div>
                     <!-- Job 3 -->
-                    <div class="portfolio-modal modal fade" id="jobModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="portfolio-modal modal fade hide" id="jobModal3" tabindex="-1" role="dialog" aria-hidden="true">
                         <div class="modal-content">
                             <div class="close-modal" data-dismiss="modal">
                                 <div class="lr">
@@ -376,7 +379,7 @@
                         </div>
                     </div>
                     <!-- Footer -->
-                    <div class="ibm-band padding-section" id="footer" style="background:#323232;">
+                    <div id="footer" style="background:#323232;">
                         <div class="ibm-columns">
                             <div class="ibm-col-4-1" >
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.6273377690864!2d4.829939!3d52.340906399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e18ef24afa63%3A0xf865c18623424b8!2sIBM+Netherlands!5e0!3m2!1sen!2suk!4v1435575237524" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>

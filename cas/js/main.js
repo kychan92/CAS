@@ -44,7 +44,7 @@ $(function() {
     
     //  handling popups
     $('.popup-actvate').click(function() {
-      var itemId  = $(this).attr('data-id'),
+      var itemId  = $(this).attr('href'),
           item    =  $(itemId)
       ;
       
