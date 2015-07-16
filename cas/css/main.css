@@ -303,7 +303,8 @@ a.btn-square {
     width: 70px;
     height: 70px;
     margin-top: 15px !important;
-    padding: 13px 16px !important;
+    vertical-align:middle;
+    line-height:70px;
     border: 2px solid #E71D32 !important;
     font-size: 40px !important;
     color: #E71D32 !important;
@@ -378,17 +379,42 @@ a.btn-square {
 }
 
 .layer-opportunities {
-	background-color: rgba(253, 214, 0, 0.7);
+	background-color: rgba(253, 214, 0, 1);
 }
 
 .layer-research {
-	background-color: rgba(65, 214, 195, 0.7);
+	background-color: rgba(65, 214, 195, 1);
 }
 
 .layer-innovation {
 	background-color: rgba(85, 150, 230, 0.7);
 }
 
+
+#header-opportunities a.page-scroll {
+  border-color:rgba(253, 214, 0, 0.7) !important;
+}
+
+#header-opportunities a.page-scroll i {
+  color:rgba(253, 214, 0, 0.7);
+}
+
+#header-research a.page-scroll {
+  border-color:rgba(65, 214, 195, 0.7) !important;
+}
+
+#header-research a.page-scroll i {
+  color:rgba(65, 214, 195, 0.7)
+}
+
+
+#header-innovation a.page-scroll {
+  border-color:rgba(85, 150, 230, 0.7) !important;
+}
+
+#header-innovation a.page-scroll i {
+  color:rgba(85, 150, 230, 0.7);
+}
 
 .questionnaire {
     padding-top: 150px;
@@ -863,8 +889,15 @@ img::-moz-selection {
 		background-color: #41D6C3;
 	}
 	
+	.layer-research {
+		min-height: 768px;
+	}
+	
 	.layer-opportunities {
 		min-height: 600px;
+	}
+	.layer-innovation {
+		min-height: 768px;
 	}
 
 	#section-team {
@@ -1182,4 +1215,19 @@ img::-moz-selection {
 
 .hide {
   display:none;
+}
+
+#scroll-btn {
+  height:100%;
+  position:absolute;
+  top:250px;
+  text-align:center;
+}
+
+#scroll-btn a {
+  width:65px;
+}
+
+#research-logo {
+  margin-left:auto; margin-right:auto; margin-top:250px; width:50%;
 }
