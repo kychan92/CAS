@@ -1183,8 +1183,7 @@ img::-moz-selection {
 }
 
 #footer .copyright {
-	text-shadow:none; font-size:15px; color:#FFF;
-	text-align:center;
+	text-shadow:none; font-size:20px; color:#FFF;
 }
 
 #footer .btns a:hover {
@@ -1230,4 +1229,16 @@ img::-moz-selection {
 
 #research-logo {
   margin-left:auto; margin-right:auto; margin-top:250px; width:50%;
+}
+
+.block {
+  width:100%;
+  min-height:100px;
+  padding:10px;
+  margin:1px;
+  background-color:#fff;
+}
+
+.ibmfooter {
+  padding:50px 0px !important;
 }
