@@ -1164,11 +1164,22 @@ img::-moz-selection {
 }
 
 
+#ibm-pcon {
+  margin-bottom: 0 !important;
+  padding-bottom:0 !important;
+}
 
 
+.popup {
+  width:100%;
+  height:100%;
+  position:fixed;
+  left:0;
+  top:0;
+  background-color:rgba(255,255,255,.8);
+  display:block;
+}
 
-
-
-
-
-
+.hide {
+  display:none;
+}

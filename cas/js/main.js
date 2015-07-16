@@ -15,11 +15,43 @@ $(function() {
     
     $('#ibm-content-nav').css('transition', '.5s');
     
+    
+    //  fade navigator.
     $(window).scroll(function(e) {
+      var nav = $('#ibm-content-nav');
+      
       if ($(window).scrollTop() > 10) {
-        $('#ibm-content-nav').css('padding', 0).css('background', '#000');
+        if (nav.hasClass('design-common-tabs-black')) {
+            nav.attr('data-blackOnWhite', true);
+            
+            // temporarily change style.
+            nav.removeClass('design-common-tabs-black').addClass('design-common-tabs-white');
+        }
+        
+        //  switch state.
+        nav.css('padding', 0).css('background', '#000');
       }else{
-        $('#ibm-content-nav').css('padding', '').css('background', '');
+        //  reset states.
+        nav.css('padding', '').css('background', '');
+        
+        if (nav.attr('data-blackOnWhite')) {
+            // temporarily change style.
+            nav.removeClass('design-common-tabs-white').addClass('design-common-tabs-black');
+        }
+      }
+    });
+    
+    
+    //  handling popups
+    $('.popup-actvate').click(function() {
+      var itemId  = $(this).attr('data-id'),
+          item    =  $(itemId)
+      ;
+      
+      if (item.hasClass('hide')) {
+        item.removeClass('hide');
+      }else{
+        item.addClass('hide');
       }
     });
 });
