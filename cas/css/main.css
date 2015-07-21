@@ -1272,3 +1272,11 @@ img::-moz-selection {
 .ibmfooter {
   padding:50px 0px !important;
 }
+
+.content-style {
+	font-family: Arial !important;
+	font-size: 30px !important;
+	line-height: 1.2 !important;
+	text-align: right !important;
+
+} 
