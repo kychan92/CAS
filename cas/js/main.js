@@ -54,4 +54,14 @@ $(function() {
         item.addClass('hide');
       }
     });
+    
+    window.setInterval(function() {
+      var videos = $('video');
+      
+      if (videos.length > 0) {
+        if (videos.get(0).paused) {
+          videos.get(0).play();
+        }
+      }
+    }, 1000);
 });
