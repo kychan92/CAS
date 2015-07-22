@@ -1304,5 +1304,13 @@ img::-moz-selection {
 
 /* remove top border from ww on menu links. */
 #ibm-content-nav #ibm-primary-tabs ul.ibm-tabs li {
-  border:0 !important;
+  border-top:none;
+}
+
+ul.ibm-tabs li a.active {
+	border-bottom:2px solid #fff !important;
+}
+
+ul.ibm-tabs li a.active.inversed {
+	border-bottom:2px solid #000 !important;
 }
