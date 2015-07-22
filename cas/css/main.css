@@ -1281,20 +1281,28 @@ img::-moz-selection {
 
 }
 
+/* set default bg color of content main to white. */
 #ibm-content-main {
   background-color:#fff;
 }
 
+/* center class. */
 .fcenter {
 	float:center;
 }
 
+/* red background home page */
 #design-home-passion {
-	color:#fff;
-	background-color: #e71d32;
+    color:#fff;
+    background-color: #e71d32;
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 100% auto;
     margin: 0;
     padding: 0;
+}
+
+/* remove top border from ww on menu links. */
+#ibm-content-nav #ibm-primary-tabs ul.ibm-tabs li {
+  border:0 !important;
 }

@@ -63,5 +63,11 @@ $(function() {
           videos.get(0).play();
         }
       }
+      
+      if (window.innerWidth < 800) {
+        $('#ibm-content-nav').hide();
+      }else{
+        $('#ibm-content-nav').show();
+      }
     }, 1000);
 });
