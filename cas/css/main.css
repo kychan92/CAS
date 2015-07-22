@@ -1288,3 +1288,13 @@ img::-moz-selection {
 .fcenter {
 	float:center;
 }
+
+#design-home-passion {
+	color:#fff;
+	background-color: #e71d32;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0;
+    padding: 0;
+}
