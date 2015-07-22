@@ -1279,4 +1279,12 @@ img::-moz-selection {
 	line-height: 1.2 !important;
 	text-align: right !important;
 
-} 
+}
+
+#ibm-content-main {
+  background-color:#fff;
+}
+
+.fcenter {
+	float:center;
+}
