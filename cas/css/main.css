@@ -297,6 +297,7 @@ header {
     right: 15%;
     position: absolute;
     bottom: 0;
+    text-align:center;
 }
 
 a.btn-square {
@@ -916,20 +917,6 @@ img::-moz-selection {
 		background-color: #41D6C3;
 	}
 	
-	.layer-home {
-    min-height:768px;
-	}
-	.layer-research {
-		min-height: 768px;
-	}
-	
-	.layer-opportunities {
-		min-height: 600px;
-	}
-	.layer-innovation {
-		min-height: 768px;
-	}
-
 	#section-team {
 		padding: 100px;
 		background-color: #fff;
@@ -1247,13 +1234,6 @@ img::-moz-selection {
 
 .hide {
   display:none;
-}
-
-#scroll-btn {
-  height:425px;
-  position:absolute;
-  top:400px;
-  text-align:center;
 }
 
 #scroll-btn a {
