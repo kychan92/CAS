@@ -68,8 +68,11 @@ $(function() {
       
       if (window.innerWidth < 800) {
         $('#ibm-content-nav').hide();
+		
+		$('.cas-logo').css('margin-top', '50px');
       }else{
         $('#ibm-content-nav').show();
+		$('.cas-logo').css('margin-top', '');
       }
       
       
@@ -81,4 +84,17 @@ $(function() {
       $('#header-innovation').css('height', h);
       $('#header-research').css('height', h);
     }, 500);
+	
+	
+	$('img.hoverModal').hover(function() {
+		var a = $(this);
+		
+		a.attr('psrc', a.attr('src'));
+		a.attr('src', 'img/hoverModal.png');
+	}, function() {
+		var a = $(this);
+		
+		a.attr('src', a.attr('psrc'));
+	});
+	
 });

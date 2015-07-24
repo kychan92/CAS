@@ -206,7 +206,6 @@ header {
 	background-color: rgba(253, 214, 0, 0.8);
 	background: url('../video/posters/cas1.jpg') no-repeat;
 	background-size: cover;
-	min-height: 600px;
 }
 
 #section-innovation-team {
@@ -253,7 +252,7 @@ header {
 
 #section-research-cas
     {
-    padding: 100px 100px 400px 100px;
+    padding: 100px;
     background-color: #fff;
     color: #000;
 }
@@ -379,10 +378,12 @@ a.btn-square {
 
 .layer-opportunities {
 	background-color: rgba(253, 214, 0, 1);
+	position:relative;
 }
 
 .layer-research {
 	background-color: rgba(65, 214, 195, 1);
+	position:relative;
 }
 
 .layer-home {
@@ -392,10 +393,12 @@ a.btn-square {
     background-blend-mode: multiply;
     background-repeat: repeat;
     background-size: 4px auto;
+	position:relative;
 }
 
 .layer-innovation {
 	background-color: rgba(85, 150, 230, 0.7);
+	position:relative;
 }
 
 #header video {
@@ -469,7 +472,7 @@ a.btn-square {
     max-width: 400px;
 }
 
-.caption {
+.portfolio .portfolio-item .portfolio-link .caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -484,7 +487,7 @@ a.btn-square {
     opacity: 1;
 }
 
-.caption-content {
+.portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -1343,7 +1346,6 @@ ul.ibm-tabs li a.active.inversed {
 	border-width: 30px;
 	margin-top: -30px;
 }
-
 
 .section-innovation-programs {
 	background-color: #333;
