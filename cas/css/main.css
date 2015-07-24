@@ -1359,3 +1359,7 @@ ul.ibm-tabs li a.active.inversed {
 	text-align:center;
 	font-weight:300;
 }
+
+.innovationBox .box:after {
+	left:108%;
+}
