@@ -1,4 +1,6 @@
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
+
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -69,5 +71,14 @@ $(function() {
       }else{
         $('#ibm-content-nav').show();
       }
-    }, 1000);
+      
+      
+      //crappy code to make video and such responsive.
+      var h = $('video').css('height');
+      
+      $('#header-home').css('height', h);
+      $('#header-opportunities').css('height', h);
+      $('#header-innovation').css('height', h);
+      $('#header-research').css('height', h);
+    }, 500);
 });
