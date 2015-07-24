@@ -468,7 +468,7 @@ a.btn-square {
     max-width: 400px;
 }
 
-.portfolio .portfolio-item .portfolio-link .caption {
+.caption {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -483,7 +483,7 @@ a.btn-square {
     opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-link .caption .caption-content {
+.caption-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -1362,4 +1362,20 @@ ul.ibm-tabs li a.active.inversed {
 	border-left-color: #000000;
 	border-width: 30px;
 	margin-top: -30px;
+}
+
+
+.section-innovation-programs {
+	background-color: #333;
+	width: 100%;
+	height: 400px;
+	margin:50px 0px;
+	color: #fff;
+	padding: 40px;
+}
+
+.section-innovation-programs h1 {
+	font-size:40px;
+	text-align:center;
+	font-weight:300;
 }
